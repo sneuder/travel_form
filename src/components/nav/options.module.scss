@@ -1,0 +1,7 @@
+@use '../../styles/mixins';
+
+.optionsContainer {
+  width: 100%;
+  @include mixins.horizontal-between();
+  @include mixins.noMarks();
+}
