@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "label": "Full name",
+    "type": "text"
+  },
+
+  {
+    "id": "2",
+    "label": "Email",
+    "type": "email"
+  },
+
+  {
+    "id": "3",
+    "label": "Phone",
+    "type": "number"
+  },
+
+  {
+    "id": "4",
+    "label": "Age",
+    "type": "number"
+  },
+
+  {
+    "id": "5",
+    "type": "submit"
+  }
+]

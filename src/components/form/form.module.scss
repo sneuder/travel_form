@@ -1,0 +1,21 @@
+@use '../../styles/variables';
+
+.formContainer {
+  background-color: variables.$tertiary-color; 
+  border-radius: variables.$box-radius;
+  padding: 1.5rem;
+  width: 30%;
+}
+
+.boxInput {
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+
+  }
+
+  &__label {
+
+  }
+}
