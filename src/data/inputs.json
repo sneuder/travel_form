@@ -21,10 +21,5 @@
     "id": "4",
     "label": "Age",
     "type": "number"
-  },
-
-  {
-    "id": "5",
-    "type": "submit"
   }
 ]

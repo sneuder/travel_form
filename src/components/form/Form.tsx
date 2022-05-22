@@ -20,6 +20,10 @@ const Form = () => {
             </div>
           ))
         }
+
+        <div className={style.boxInput}>
+          <input className={style.boxInput__submit} type="submit"/>
+        </div>
       </form>
     </div>
   );
