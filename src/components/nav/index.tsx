@@ -2,6 +2,7 @@ import React from "react";
 
 import Branch from "../../shared/branch/Branch";
 import Options from "./Options";
+import BurgerButton from "./BurgerButton";
 
 import style from "./index.module.scss";
 
@@ -12,6 +13,7 @@ const Nav = () => {
       <div className={style.optionsContainer}>
         <Options/>
       </div>
+      <BurgerButton/>
     </nav>
   )
 }

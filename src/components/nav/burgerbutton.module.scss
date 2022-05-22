@@ -1,0 +1,23 @@
+@use '../../styles/variables';
+
+.buttonContainer {
+  display: none;
+
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    color: variables.$primary-color;
+    transition: all 0.3s ease-in-out;
+
+    &:hover {
+      color: variables.$secundary-color;
+    }
+  }
+}
+
+@media screen and (max-width: 920px){
+  .buttonContainer {
+    display: block;
+  }
+}
