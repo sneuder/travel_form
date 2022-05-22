@@ -3,6 +3,9 @@
 
 .navContainer {
   padding: 2rem;
+  width: 100vw;
+  position: fixed;
+  background-color: variables.$tertiary-color;
   height: variables.$nav-height;
   box-shadow: variables.$primary-shadow;
   @include mixins.horizontal-between();
