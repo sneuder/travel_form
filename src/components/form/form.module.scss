@@ -4,7 +4,13 @@
   background-color: variables.$tertiary-color; 
   border-radius: variables.$box-radius;
   padding: 1.5rem;
-  width: 30%;
+  width: 60vmin;
+}
+
+@media screen and (max-width: 670px) {
+  .formContainer {
+    width: 80vw;
+  }
 }
 
 .boxInput {

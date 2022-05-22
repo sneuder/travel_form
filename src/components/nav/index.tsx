@@ -9,7 +9,9 @@ const Nav = () => {
   return (
     <nav className={style.navContainer}>
       <Branch />
-      <Options />
+      <div className={style.optionsContainer}>
+        <Options/>
+      </div>
     </nav>
   )
 }

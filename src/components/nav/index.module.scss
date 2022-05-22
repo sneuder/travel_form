@@ -2,12 +2,18 @@
 @use '../../styles/mixins';
 
 .navContainer {
-  padding: 2rem;
+  padding: 0 2rem;
   width: 100vw;
-  position: fixed;
   background-color: variables.$tertiary-color;
   height: variables.$nav-height;
   box-shadow: variables.$primary-shadow;
   @include mixins.horizontal-between();
   align-items: center;
+}
+
+
+@media screen and (max-width: 920px) {
+  .optionsContainer {
+    display: none;
+  }
 }
