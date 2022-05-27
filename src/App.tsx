@@ -1,12 +1,18 @@
-import React from 'react';
+import { useState } from "react";
+import Context from "./context/context";
+import initialState from "./context/state";
 
 import Home from './pages/home/Home';
 
-function App() {
+const App = () => {
+  const [globalState, setGlobalState] = useState(initialState);
+
   return (
-    <div className="App">
-      <Home />
-    </div>
+    <Context.Provider value={{ globalState, setGlobalState }}>
+      <div className="App">
+        <Home />
+      </div>
+    </Context.Provider>
   );
 }
 

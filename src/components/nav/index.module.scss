@@ -3,7 +3,7 @@
 
 .navContainer {
   padding: 0 2rem;
-  width: 100vw;
+  max-width: 100vw;
   background-color: variables.$tertiary-color;
   height: variables.$nav-height;
   box-shadow: variables.$primary-shadow;

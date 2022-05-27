@@ -13,6 +13,24 @@
   }
 }
 
+.headerForm {
+
+  &__header {
+    color: variables.$primary-color;
+  }
+
+  &__message {
+    color: variables.$secundary-color;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+  }
+
+  &__branch {
+    color: variables.$primary-color;
+    font-weight: 600;
+  }
+}
+
 .boxInput {
   display: flex;
   flex-direction: column;
@@ -28,6 +46,7 @@
 
   &__submit {
     height: 2.5rem;
+    margin-top: 1rem;
     border: none;
     border-radius: variables.$box-radius;
     background-color: variables.$primary-color;
@@ -39,6 +58,7 @@
   }
 
   &__label {
-
+    color: variables.$secundary-color;
   }
+
 }

@@ -9,7 +9,7 @@ const Form = () => {
     <div className={style.formContainer}>
       <div className={style.headerForm}>
         <h2 className={style.headerForm__header}>Hi. Welcome!</h2>
-        <p className={style.headerForm__message}>We know you want to travel with Avianca. Please complete the following fields.</p>
+        <p className={style.headerForm__message}>We know you want to travel with <span className={style.headerForm__branch}>Avianca</span>. Please complete the following fields.</p>
       </div>
       <form>
         {
